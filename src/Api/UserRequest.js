@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API = axios.create({baseUrl:"https://neostores.tk"})
+const API = axios.create({baseURL:"https://neostores.tk"})
 
 API.interceptors.request.use((req)=>{
     if(localStorage.getItem("profile")){
