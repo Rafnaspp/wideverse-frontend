@@ -28,7 +28,7 @@ function CommentModal({ modalOpened, setModalOpened, postId, posts, persons}) {
     const theme = useMantineTheme();
     const dispatch = useDispatch()
     const comments = posts.commnets
-    const serverPublic = process.env.REACT_APP_PUBLIC_FOLDER
+    const serverPublic = "https://neostores.tk/images/"
     
 //    console.log('posts on cmnt',posts.commnets);
    console.log('posts on cmnt',comments);

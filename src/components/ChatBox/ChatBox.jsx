@@ -98,7 +98,7 @@ const ChatBox = ({ chat, currentUser, setSendMessage , receiveMessage}) => {
                      <div className="chat-header">
                          <div className="Follower">
                              <div>
-                                 <img src={userData?.profilePicture ? process.env.REACT_APP_PUBLIC_FOLDER + userData.profilePicture : Profile} alt=""
+                                 <img src={userData?.profilePicture ? "https://neostores.tk/images/" + userData.profilePicture : Profile} alt=""
                                      className='followerImage'
                                      style={{ width: '50px', height: '50px' }}
                                  />

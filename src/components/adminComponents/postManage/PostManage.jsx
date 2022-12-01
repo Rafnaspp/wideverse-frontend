@@ -65,7 +65,7 @@ const PostManage = () => {
         <CardMedia
           component="img"
           height="140"
-          image={ process.env.REACT_APP_PUBLIC_FOLDER + post.image}
+          image={ "https://neostores.tk/images/" + post.image}
           alt="green iguana"
         />
         <CardContent>

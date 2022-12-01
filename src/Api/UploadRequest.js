@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API = axios.create({baseUrl:process.env.baseURL})
+const API = axios.create({baseUrl:"https://neostores.tk/"})
 
 export const uploadImage = (data) => API.post('/upload/', data)
 

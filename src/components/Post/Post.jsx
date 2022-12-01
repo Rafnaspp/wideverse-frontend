@@ -83,7 +83,7 @@ const Post = ({ data }) => {
           )
         }
       })}
-      <img src={data.image ? process.env.REACT_APP_PUBLIC_FOLDER + data.image : ""} alt="" />
+      <img src={data.image ? "https://neostores.tk/images/" + data.image : ""} alt="" />
       <div className="postReact">
         <img src={liked ? Heart : NotLike} alt="" style={{ cursor: "pointer" }} onClick={handleLike} />
         <img src={Comment} onClick={() => setModalOpened(true)} alt="" />

@@ -11,7 +11,7 @@ const User = ({person}) => {
     const [following, setFollowing] =useState(person.followers.includes(user._id))
     const senderId = user._id
     const receiverId = person._id
-    const serverPublic = process.env.REACT_APP_PUBLIC_FOLDER
+    const serverPublic = "https://neostores.tk/images/"
     const handleFollow =()=>{
         following ?
         dispatch(unFollowUser(person._id, user)):
